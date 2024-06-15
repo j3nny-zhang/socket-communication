@@ -4,6 +4,8 @@ This project demonstrates the creation of server and client applications that co
 ## Features
 **Client and Server:** Establishes a reliable, message-oriented communication channel (UDP). Once that is set up, a random port is set up on which lives a TCP connection-oriented communication channel.
 
+This project parses through a wireshark json file, returning the count of <proto> packets ("UDP", "TCP", or "TCPUDP").
+
 ## TO RUN SERVER:
 ./server.sh <req-code>
 
