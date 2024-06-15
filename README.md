@@ -7,7 +7,7 @@ This project demonstrates the creation of server and client applications that co
 This project parses through a wireshark json file, returning the count of <proto> packets ("UDP", "TCP", or "TCPUDP").
 
 ## TO RUN SERVER:
-./server.sh <req-code>
+./server.sh <req_code>
 
 ## TO RUN CLIENT:
 ./client.sh <server_address> <n_port> <req_code> <proto> <trace_to_send>
